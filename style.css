@@ -52,7 +52,7 @@ nav a:hover {
   width: 100%;
   max-width: 100%;
   height: auto;
-  max-height: 350px;
+  max-height: 800px;
   object-fit: contain; /* Change from cover to contain */
   display: block;
   border-radius: 8px;
@@ -144,3 +144,4 @@ footer {
   padding: 16px 0;
   position: fixed;
   width: 100%;
+}
