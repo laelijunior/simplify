@@ -37,24 +37,18 @@ nav a:hover {
   text-decoration: underline;
 }
 
+
 .hero {
-  width: 100%;
-  margin: 0 auto;
-  overflow: hidden;
-  background: #e6eef8;
-  display: flex;
-  justify-content: center;
-  align-items: center;
+  text-align: center;
+  padding: 3rem 2rem;
+  background: white;
 }
 
 .hero img {
-  width: 100vw;         /* Make image span the full viewport width */
-  max-width: 100%;      /* Prevent overflow */
-  height: auto;         /* Maintain aspect ratio */
-  max-height: 350px;    /* Limit height for large screens */
-  object-fit: contain;  /* Show the whole image without cropping */
-  display: block;
+  max-width: 100%;
+  height: auto;
   border-radius: 8px;
+  margin-bottom: 2rem;
 }
 
 .contact-form {
@@ -120,7 +114,7 @@ nav a:hover {
 .whatsapp-chat {
   display: block;
   width: fit-content;
-  margin: 32px auto 0 auto;
+  margin: 32px auto 32px auto; /* top, right/left, bottom */
   background: #25d366;
   color: #fff;
   padding: 12px 20px;
