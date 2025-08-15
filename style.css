@@ -37,6 +37,93 @@ nav a:hover {
   text-decoration: underline;
 }
 
+.hero img {
+  width: 100%;
+  height: auto;
+  display: block;
+  object-fit: cover;
+  max-height: 400px;
+}
+
+.contact-form {
+  max-width: 400px;
+  margin: 40px auto 80px auto;
+  padding: 24px;
+  background: #f8faff;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0,59,134,0.08);
+}
+
+.contact-form h1 {
+  text-align: center;
+  margin-bottom: 24px;
+  color: #003b86;
+}
+
+.contact-form label,
+.contact-form input,
+.contact-form textarea,
+.contact-form button {
+  width: 100%;
+  box-sizing: border-box;
+  font-size: 1rem;
+}
+
+.contact-form label {
+  margin-bottom: 4px;
+  display: block;
+  color: #003b86;
+}
+
+.contact-form input,
+.contact-form textarea {
+  margin-bottom: 16px;
+  padding: 8px;
+  border: 1px solid #003b86;
+  border-radius: 4px;
+  background: #fff;
+  color: #003b86;
+}
+
+.contact-form input:focus,
+.contact-form textarea:focus {
+  outline: 2px solid #003b86;
+}
+
+.contact-form button {
+  background: #003b86;
+  color: #fff;
+  border: none;
+  padding: 10px 0;
+  border-radius: 4px;
+  cursor: pointer;
+  font-weight: bold;
+  transition: background 0.2s;
+}
+
+.contact-form button:hover {
+  background: #00275a;
+}
+
+.whatsapp-chat {
+  position: fixed;
+  bottom: 24px;
+  right: 24px;
+  background: #25d366;
+  color: #fff;
+  padding: 12px 20px;
+  border-radius: 50px;
+  text-decoration: none;
+  font-weight: bold;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.15);
+  z-index: 1000;
+  transition: background 0.2s;
+}
+
+.whatsapp-chat:hover {
+  background: #128c7e;
+}
+
 footer {
   background: #003b86;
   color: #fff;
@@ -44,5 +131,3 @@ footer {
   padding: 16px 0;
   position: fixed;
   width: 100%;
-  bottom: 0;
-}
