@@ -1,52 +1,28 @@
 # IT Support Website
 
 ## Overview
-This project is an IT support website designed to provide services to small and medium businesses. The website features a professional design and includes both English and French versions to cater to a wider audience.
+This project is a professional website designed to provide IT support services to small and medium businesses. The website is structured to offer clear navigation and information about the services provided, the company background, contact details, and partnerships.
 
 ## Project Structure
 ```
 it-support-website
-├── public
-│   ├── index.html        # Main HTML document for the website
-│   ├── fr.html          # French version of the main HTML document
-│   └── images           # Directory containing images used throughout the website
 ├── src
+│   ├── index.html          # Main homepage of the website
+│   ├── services.html       # Information about IT support services
+│   ├── a-propos.html       # About the company, mission, and team
+│   ├── contact.html        # Contact form and company contact information
+│   ├── partenaires.html     # List of partners and affiliations
 │   ├── css
-│   │   └── style.css    # Styles for the website
-│   ├── js
-│   │   └── main.js      # JavaScript code for interactivity
-│   └── assets           # Directory for additional assets (fonts, icons, etc.)
-├── package.json         # Configuration file for npm
-└── README.md            # Documentation for the project
+│   │   └── style.css       # Styles for the website
+│   └── assets              # Directory for images and media assets
+└── README.md               # Documentation for the project
 ```
 
-## Features
-- Responsive design suitable for various devices
-- Navigation menu with options for services, about, contact, and language selection
-- Professional layout and styling
-- JavaScript for enhanced interactivity
-
 ## Setup Instructions
-1. Clone the repository:
-   ```
-   git clone <repository-url>
-   ```
-2. Navigate to the project directory:
-   ```
-   cd it-support-website
-   ```
-3. Install dependencies:
-   ```
-   npm install
-   ```
-4. Open `public/index.html` in your web browser to view the website.
+1. Clone the repository to your local machine.
+2. Navigate to the `src` directory.
+3. Open `index.html` in a web browser to view the homepage.
+4. Ensure that all HTML files are linked correctly and that the CSS file is applied.
 
-## Usage
-- The website provides information about IT support services.
-- Users can switch between English and French versions using the navigation menu.
-
-## Contributing
-Contributions are welcome! Please submit a pull request or open an issue for any suggestions or improvements.
-
-## License
-This project is licensed under the MIT License.
+## Purpose
+The purpose of this website is to provide a comprehensive overview of IT support services tailored for small and medium businesses, showcasing the company's expertise and facilitating easy communication with potential clients.
