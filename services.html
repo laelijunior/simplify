@@ -5,6 +5,26 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Services - Simplify Tech Solutions</title>
   <link rel="stylesheet" href="style.css" />
+  <style>
+    /* Custom style for services-section to avoid flex issues */
+    .services-section {
+      max-width: 900px;
+      margin: 40px auto 120px auto;
+      background: #f8faff;
+      border-radius: 10px;
+      padding: 32px;
+      box-shadow: 0 2px 8px rgba(0,59,134,0.06);
+    }
+    .services-section ul {
+      font-size: 1.1rem;
+      color: #003b86;
+      line-height: 2;
+      padding-left: 20px;
+    }
+    .services-section li {
+      margin-bottom: 10px;
+    }
+  </style>
 </head>
 <body>
   <header>
@@ -24,9 +44,9 @@
   </header>
 
   <main>
-    <section style="max-width:900px; margin:40px auto 120px auto; background:#f8faff; border-radius:10px; padding:32px; box-shadow:0 2px 8px rgba(0,59,134,0.06);">
+    <section class="services-section">
       <h1 style="color:#003b86; text-align:center;">Our Services</h1>
-      <ul style="font-size:1.1rem; color:#003b86; line-height:2;">
+      <ul>
         <li><strong>Microsoft 365 (Office 365) Solutions:</strong>
           <ul>
             <li>Licensing and subscription management</li>
@@ -62,4 +82,5 @@
   </main>
 
   <footer>
-    <p>&copy; 2025 Simplify Tech Solutions. All rights
+    <p>&copy; 2025 Simplify Tech Solutions. All rights reserved.</p>
+  </footer>
