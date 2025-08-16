@@ -168,6 +168,6 @@ footer {
   color: #fff;
   text-align: center;
   padding: 16px 0;
+  position: fixed;
   width: 100%;
-  margin-top: 0;
 }
